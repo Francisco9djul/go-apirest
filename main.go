@@ -26,7 +26,7 @@ func main() {
 
 	r := mux.NewRouter() // Creo el enrutador
 
-	r.HandleFunc("/", routes.HomeHandler) // Defino la ruta principal
+	r.HandleFunc("/", routes.HomeHandler) // Defino la ruta Principal
 
 	//Llamada a METODOS de la clase HOSPITAL
 	r.HandleFunc("/hospitals", routes.GetHospitalsHandler).Methods("GET")
