@@ -1,5 +1,7 @@
 # AmbulanciaYa (Backend)
 
+Run `go mod tidy` after cloning to install dependencies.
+
 ## Dev tools
 
 - Go Air (Hot Reload).
